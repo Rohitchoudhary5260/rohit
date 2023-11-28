@@ -1,0 +1,737 @@
+
+
+
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: aqua;
+}
+.header{
+    width: 100%;
+   background-color: aliceblue;
+    display: inline-flex ;
+    align-items: center;
+
+}
+.logo{
+    width: 10%;
+}
+.logo .logo{
+    width: 100px;
+}
+.logoname{
+width: 20%;
+}
+.menu{
+    width: 60%;
+}
+.menu ul{
+list-style-type: none;
+display: inline-flex;
+}
+.menu ul li{
+    padding: 10px;
+}
+.menu ul li a{
+text-decoration: none;
+color: black; 
+}
+
+
+.notify .logo{
+width: 30px;
+}
+.banner{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    
+}
+.banner img{
+    width: 100%;
+    height: 100%;
+}
+.section{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 1px 1px 10px 1px black ;
+    
+}
+.section img:hover{
+    transform: scale(2);
+    transition-duration: 2s;
+
+}
+.section:hover{
+    transform: scale(1.2);
+    transition-duration: 2s;
+}
+.section-text{
+    width: 300px;
+    height: 500px;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border-radius: 40px;
+    overflow: hidden;
+    /* background-color: aqua; */
+}
+input{
+    padding: 8px;
+    margin: 4%;
+    
+}
+button{
+    padding: 7px;
+    margin: 2%;
+    margin-left: 8%;
+    /* box-shadow: 1px 1px 10px 1px blue; */
+}
+h1{
+    color: white;
+    text-align: center;
+    
+    
+}
+h1:hover{
+    filter: drop-shadow(1px 1px 1px black);
+    text-shadow: 1px 1px 1px black;
+}
+img{
+    filter: drop-shadow(1px 1px 1px red);
+}
+section img:hover{
+    filter: drop-shadow(10px 10px 10px black);
+}
+ section:hover{
+    filter: drop-shadow(20px 20px 20px black);
+}
+li a:hover{
+   filter: drop-shadow(2px 2px 2px black);
+   transition-duration: 2s;
+}
+p{
+    filter: drop-shadow(1px 1px 1px black);
+}
+.section:hover{
+    filter: drop-shadow(10px 10px 10px black);
+
+}
+h1  a{
+    filter: drop-shadow(10px 10px 10px black);
+}
+/* button a:hover{
+    filter: drop-shadow(10px 10px 10px black);
+    
+}  */
+.main{
+    width: 100%;
+    height: 20%;
+    
+}
+
+.main1{
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    background-color: aliceblue;
+   
+}
+
+.main2{
+  width: 100%;
+  background-color: aliceblue;
+  align-items: center;
+  border-radius: 10px;
+  justify-content: center;
+
+}
+.main2 input{
+    width: 85%;
+    border: none;
+    height: 5px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+.main2 img{
+    width: 40px;
+    height: 20px;
+    margin-top: 3%;
+    
+    
+}
+.main3{
+    width: 100%;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 3%;
+  
+}
+.main3 input{
+    width: 85%;
+    border: none;
+    height: 5px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 2%;
+    border-radius: 10px;
+   
+
+}
+.main3 img{
+    width: 40px;
+    height: 20px;
+    margin-top: 20px;
+    
+    
+}
+.main4{
+    width: 100%;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 2%;
+    
+  
+}
+.main4 input{
+    width: 85%;
+    border: none;
+    height: 5px;
+    padding: 20px;
+    margin: auto;
+    margin-bottom: 3%;
+    border-radius: 10px; 
+    
+   
+
+}
+.main4 img{
+    width: 30px;
+    height: 20px;
+    margin-top: 3%;
+    
+    
+    
+}
+.main5{
+    width: 100%;
+    height: 8px;
+    background-color: aliceblue;
+    align-items: center;
+    border-radius: 20px;
+    margin-top: 2%;
+    
+  
+}
+.main5 input{
+    width: 100%;
+    border: none;
+    height: 20%;
+    padding: 30px;
+    margin: auto;
+    border-radius: 10px;
+     
+}
+ .main5 input:hover{
+    filter: drop-shadow(1px 1px 1px black);
+} 
+.main6{
+    margin-top: 1%;
+}
+/* product.html css */
+.main{
+    background-color: aliceblue;
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+}
+.slider{
+    width: 40%;
+    height: 100%;
+    
+    display: inline-flex;
+}
+.leader{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(0, 255, 204);
+}
+.with{
+    width: 40%;
+    height: 100%;
+    
+    
+}
+.slider1{
+    width: 80%;
+    height: 100%;
+  
+}
+.slider2{
+    width: 20%;
+    height: 100%;
+} 
+.loder{
+    width: 100%;
+    height: 20%;
+    
+}
+.loder1{
+    width: 100%;
+    height: 20%;
+    
+}
+.loder2{
+    width: 100%;
+    height: 20%;
+   
+}
+.loder3{
+    width: 100%;
+    height: 20%;
+    
+}
+.loder4{
+    width: 100%;
+    height: 20%;
+    
+}
+.btn{
+    width: 80%;
+    margin: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color:aqua;
+    height: 10%;
+}
+.btn-btn{
+    width: 80%;
+    margin: 40px;
+    border: 0;
+    border-radius: 30px;
+    background-color: aqua;
+    height: 10%;
+}
+p{
+    color: aqua;
+    margin-top: 30px;
+    margin-left: 20%;
+    font-size: 30px;
+}
+
+.leader1{
+    width: 100%;
+    height: 30%;
+}
+.leader2{
+    width: 100%;
+    height: 30%;
+}
+.leader3{
+    width: 100%;
+    height: 30%;
+}
+pre{
+    margin: 7px;
+    color:yellowgreen;
+    font-size: 20px;
+
+}
+.type{
+    width: 10%;
+    margin-top: -9%;
+    margin-left: 0%;
+    border: none;
+    border-radius: 10px;
+}
+h2{
+    margin-top: 5%;
+    color: aliceblue;
+}
+.rat{
+    margin-left: 2%;
+}
+/* cart.html css */
+.tonny{
+    width: 100%;
+    height: 350px;
+    background-color: aliceblue;
+    display: inline-flex;
+}
+.tonny1{
+    width: 70%;
+    height: 100%;
+    
+    display: inline-flex;
+}
+.tonny2{
+    width: 30%;
+    height: 100%;
+   
+    position: relative;
+}
+.rat1{
+    width: 40%;
+    height: 100%;
+   
+}
+.rat2{
+    width: 60%;
+    height: 100%;
+    
+}
+.rat1 img{
+    height: 60%;
+    width: 50%;
+    margin: 20%;
+    margin-top: 0%;
+}
+.rat2 p{
+    margin-left: 0;
+    margin-top: -0%;
+    color:white;
+    font-size: 15px;
+   
+}
+ p:hover{
+    filter: drop-shadow(1px 1px 1px black);
+    text-shadow: 1px 1px 1px black;
+}
+.rat2 button{
+    background-color: red;
+    border: 0;
+    margin-left: 0%;
+    margin-top: -2%;
+    
+}
+.rat2 h3{
+    color: aqua;
+    font-size: 30px;
+    margin-top: -1%;
+}
+.rat2 h6{
+    font-size: 20px;
+    margin-top: -1%;
+}
+.rat2 h5{
+    font-size: 20px;
+    margin-top: -5%;
+}
+.rat2 select{
+    margin-left: 5%;
+    margin-bottom: 2%;
+    width: 10%;
+}
+    
+
+.tonny2 h4{
+    margin-left: 0;
+    font-size: 20px;
+}
+.tonny2 input{
+    margin-left: 50%;
+    position: absolute;
+    top:-10px;
+    
+    
+} 
+.rat3{
+    width: 100%;
+    height: 10%;
+    background-color: aliceblue;
+    margin-top: -6%;
+}
+.rat3 h4{
+    font-size: 20px;
+    color: darkred;
+    background-color: burlywood;
+}
+.rat3 h3{
+    margin-top: -6%;
+    background-color: burlywood;
+}
+.rat4{
+    width: 100%;
+    height: 50%;
+}
+.rat4 h4{
+    color: chocolate;
+}
+.floor{
+    width: 100%;
+    height: 350px;
+    background-color: aliceblue;
+    display: inline-flex;
+}
+.floor1{
+    width: 30%;
+    height: 100%;
+    
+}
+.floor2{
+    width: 50%;
+    height: 100%;
+    
+}
+.floor1 img{
+    width: 50%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 2%;
+}
+.floor2 p{
+    color: white;
+    font-size: 15px;
+    margin-left: 0;
+    margin-top: 0;
+    cursor: pointer;
+}
+.war{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 40%;
+}
+.ran{
+    width: 10%;
+    height: 10%;
+    margin-bottom: 40%;
+}
+.floor2 h6{
+    color:chocolate;
+    font-size: 15px;
+}
+.floor2 h4{
+    color:chocolate;
+    margin-top: -5%;
+}
+.floor2 h5{
+    color: green;
+}
+.floor2 select{
+    width: 10%;
+}
+.rat4 button{
+    background-color: chocolate;
+    width: 50%;
+    border: 0;
+    margin-left: 20%;
+}
+.back{
+    width: 100%;
+    height: 400px;
+    background-color: darkblue;
+    margin-top: -5%;
+}
+.back-to{
+    width: 100%;
+    height: 20%;
+    
+}
+.back-to h2{
+    margin-left: 40%;
+}
+.footer{
+   width: 100%;
+   height: 80%;
+   
+   display: inline-flex;
+}
+.footer1{
+    width: 25%;
+    height: 100%;
+   
+}
+.footer2{
+    width: 25%;
+    height: 100%;
+   
+}
+.footer3{
+    width: 25%;
+    height: 100%;
+    
+    
+}
+.footer4{
+    width: 25%;
+    height: 100%;
+}
+.footer1 ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+h3{
+    color: white;
+    font-size: 20px;
+}
+.footer2 ul li{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.footer3 ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.footer4 ul li {
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.leo{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(9, 255, 0);
+    margin-top: 1%;
+    position: relative;
+}
+.leo h6{
+    margin-left: 40%;
+    margin-top: 0;
+    font-size: 15px;
+}
+.leo button{
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-left: 40%;
+    margin-top: -2%;
+    position: absolute;
+    background-color: yellow;
+    border: 0;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.leo a{
+    margin-left: 48%;
+    margin-top: -52px;
+    position: absolute;
+}
+.shop-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #f3f3f3;
+    padding: 50px 0;
+}
+
+.shop-images {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    gap: 40px;
+    max-width: 1280px;
+    width: 100%;
+
+}
+.shop-link {
+    background-color: #fff;
+    padding: 30px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    white-space: nowrap;
+}
+
+.shop-link img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+.shop-link img{
+    transition-duration: 2s;
+}
+
+.shop-link h3{
+    margin-bottom: 10px;
+
+}
+.leo1{
+    width: 100%;
+    height: 30px;
+    background-color: aliceblue;
+}
+.leo1 h5{
+  margin-left: 40%;
+  font-size: 20px;
+  color:white;
+  filter: drop-shadow(1px 1px 1px black);
+}
+.leo2{
+    width: 100%;
+    height: 50px;
+    background-color: aliceblue;
+}
+.leo2 h5{
+    margin-left: 40%;
+    color: white;
+    font-size: 20px;
+    filter: drop-shadow(1px 1px 1px black);
+}
+.tailer{
+    width: 100%;
+    height: 400px;
+    background-color: aliceblue;
+    margin-top: 2%;
+    display: inline-flex;
+}
+.tailer1{
+    width: 30%;
+    height: 100%;
+    
+}
+.tailer1 img{
+    width: 50%;
+    height: 60%;
+    margin-left:20% ;
+}
+.tailer2{
+    width: 40%;
+    height: 100%;
+
+}
+.tailer2 h5{
+    color: black;
+    cursor: pointer;
+    font-size: 15px;
+}
+.tailer2 select{
+    width: 13%;
+    border: 0;
+}
+.tailer2 h4{
+    color: chocolate;
+}
+button:hover{
+    box-shadow: 1px 1px 2px 1px black;
+    background-color:darkblue;
+    transition-duration: 2s;
+
+
+}
+button {
+    color: white;
+}
+.leo1 h5{
+    font-size: 20px;
+    cursor: pointer;
+}
+.leo1 h5:hover{
+    filter: drop-shadow(5px 5px 5px black);
+}
+.leo2 h5{
+    font-size: 20px;
+    cursor: pointer;
+}
+.leo2 h5:hover{
+    filter: drop-shadow(5px 5px 5px black);
+}
